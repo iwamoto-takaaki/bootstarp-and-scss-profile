@@ -1,0 +1,68 @@
+/* 既存クラスにちょい足し　*/
+.carousel-item img{
+    width: 100%;
+}
+
+.card{
+    border-radius: 1rem;
+    padding: 0;
+}
+
+.card .card-img-top{
+    border-radius: 1rem 1rem 0 0;
+}
+
+/* 使い回しが判っているものはCSSを使った方がHTMLがすっきりする　*/
+.section-title{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.section-title .underbar{
+    width: 6rem;
+    height: 0.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #4DF59B;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+    
+/* bootstrapで痒い所　*/
+@media (min-width: 1140px){
+    #myname{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 540px){
+    #myname{
+        font-size: 2rem;
+    }
+}
+
+#myname{
+    font-size: 1.2rem;
+}
+
+/* 細かい設定もCSSの方がすっきりする */
+header{
+    padding-top: 1rem;
+}
+
+header, footer{
+    background-color: #343a40;
+}
+
+footer{
+    margin-top: 3rem;
+    height: 3rem;
+    text-align: right;
+    color: #888888;
+}
