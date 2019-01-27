@@ -60,6 +60,13 @@ header, footer{
     background-color: #343a40;
 }
 
+#likes .embed-responsive{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
 footer{
     margin-top: 3rem;
     height: 3rem;
