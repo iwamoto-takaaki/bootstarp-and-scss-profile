@@ -1,0 +1,24 @@
+{
+  "name": "bootstarp-and-scss-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwamoto-takaaki/bootstarp-and-scss-profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwamoto-takaaki/bootstarp-and-scss-profile/issues"
+  },
+  "homepage": "https://github.com/iwamoto-takaaki/bootstarp-and-scss-profile#readme",
+  "devDependencies": {
+    "bootstrap": "^4.2.1",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
