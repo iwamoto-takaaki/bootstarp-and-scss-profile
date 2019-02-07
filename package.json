@@ -18,7 +18,9 @@
   "homepage": "https://github.com/iwamoto-takaaki/bootstarp-and-scss-profile#readme",
   "devDependencies": {
     "bootstrap": "^4.2.1",
+    "coffeescript": "^2.3.2",
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
   }
 }

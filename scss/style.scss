@@ -1,0 +1,82 @@
+// bootstrapをインポートしておく
+@import "bootstrap";
+
+.carousel-item {
+    img {
+        width: 100%;
+    }
+}
+
+.card {
+    padding: 0;
+    //col-12 
+    @include make-col(12);
+    //col-sm-4
+    @include media-breakpoint-up('sm'){
+        @include make-col(4);
+    }
+
+    // 正直、細かい関数は捜すより、直に書いた方が早い気がする
+    @include border-radius( 1rem );
+    .card-img-top {
+        @include border-top-radius( 1rem );
+    }
+}
+
+.section-title {
+    margin-bottom: 2rem;
+    text-align: center;
+    // scss言えば入れ子が便利
+    .underbar {
+        width: 6rem;
+        height: 0.5rem;
+        margin-right: auto;
+        margin-left: auto;
+        // scssからしか使えない色が多い
+        background-color: $teal;
+    }
+}
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#myname {
+    font-size: 1.2rem;
+    // レスポンシブデザイン周りはこんな感じ
+    @include media-breakpoint-up('md'){
+        font-size: 2rem;
+    }
+    @include media-breakpoint-up('lg'){
+        font-size: 3rem;
+    }
+}
+
+header {
+    padding-top: 1rem;
+}
+
+header,
+footer {
+    background-color: $gray-800;
+}
+
+#likes {
+    .embed-responsive {
+        width: 75%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+}
+
+footer {
+    margin-top: 3rem;
+    height: 3rem;
+    text-align: right;
+    color: $gray-500;
+}
