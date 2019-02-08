@@ -9416,10 +9416,10 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card {
-  border-radius: 1rem;
   padding: 0;
   flex: 0 0 100%;
   max-width: 100%;
+  border-radius: 1rem;
 }
 
 @media (min-width: 576px) {
